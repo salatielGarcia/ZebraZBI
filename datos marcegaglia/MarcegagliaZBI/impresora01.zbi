@@ -1,0 +1,18 @@
+REM Programa marcegaglia 
+REM Elaborado por: Salatiel García
+REM Status: Testing
+
+autonum 1,1
+close all
+open #1: name "SER"
+open #2: name "ZPL"
+sub recibeDato
+input #1: A$
+let fecha$ = A$(13:20)
+let hora$ = A$(22:29)
+let resultado$ = A$(46:47)
+sub imprimeDato
+print #2: "^xa^fo50,50^a0n,50,50^fd"&fecha$&"^fs^xz"
+print #2: "^xa^fo50,50^a0n,50,50^fd"&hora$&"^fs^xz"
+print #2: "^xa^fo50,50^a0n,50,50^fd"&resultado$&"^fs^xz"
+gosub recibeDato
