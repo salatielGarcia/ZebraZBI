@@ -32,4 +32,4 @@ There are two main differentiation criteria:
 
 Data capabilities of RFID transponders range from a few bytes to several kilobytes except for 1-bit transponders. A data quantity of exactly 1 bit is enough to signal 2 states to the reader: existence or absence of the tag. These types of transponders are widely use given the low price at which they can be manufactured (Clothing tags).
 
-
+The

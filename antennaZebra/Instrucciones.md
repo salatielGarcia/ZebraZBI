@@ -4,6 +4,8 @@ Seguir los pasos descritos en el manual [link](https://www.zebra.com/apps/dlmana
 
 Para hacer la conexión remota desde el software basado en Eclipse es más sencillo utilizar la conexión por defecto 'FXSeries' que crear una nueva y modificacar las propiedades.
 
+La clave original para entrar al servidor web (admin) es: change
+
 En la configuración, al parecer, se puede modificar la potencia de salida de 10 a 30dBm.
 
 El archivo de ejemplo en C++ funciona al 100% con la configuración por default y se puede utilizar como referencia para el desarrollo de una app adicional.
